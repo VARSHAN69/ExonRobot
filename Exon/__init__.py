@@ -57,8 +57,8 @@ LOGGER.info(f"|    @{Config.OWNER_USERNAME}    |")
 LOGGER.info("------------------------")
 LOGGER.info(f"ᴠᴇʀsɪᴏɴ: 2.69")
 LOGGER.info(f"ᴏᴡɴᴇʀ: {str(Config.OWNER_ID)}")
-LOGGER.info("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ: https://github.com/Abishnoi69/ExonRobot\n")
-LOGGER.info("ᴇxᴏɴ ɪs sᴛᴀʀᴛɪɴɢ. | ᴀɴ ᴀʙɪsʜɴᴏɪᴍғ ᴘʀᴏᴊᴇᴄᴛ ᴘᴀʀᴛs. | ")
+LOGGER.info(" ʏᴏᴜᴛᴜʙᴇ: https://www.youtube.com/@ArmEsportz\n")
+LOGGER.info("Mᴀɴᴀɢᴇʀ ɪs sᴛᴀʀᴛɪɴɢ. | ᴀɴ  ᴘʀᴏᴊᴇᴄᴛ ᴘᴀʀᴛs. | ")
 
 # ᴠᴇʀs
 API_ID = Config.API_ID
@@ -89,7 +89,7 @@ TEMP_DOWNLOAD_LOC = "./Downloads"
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5938660179)
+DEV_USERS.add(5318360016)
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
 
