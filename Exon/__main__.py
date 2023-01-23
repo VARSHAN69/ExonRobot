@@ -86,7 +86,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-START_IMG = "https://telegra.ph/file/b5743eea4bd820cce1b9c.jpg"
+START_IMG = "https://te.legra.ph/file/117b8e5f5184343a9e72d.jpg"
 PM_START_TEX = """
 ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
 """
@@ -259,7 +259,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇꜱ",
-                            url=f"https://t.me/AbishnoiMF",
+                            url=f"https://t.me/aizenchannel",
                         ),
                     ],
                     [
@@ -670,7 +670,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(
-        "sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇs ɪғ sʜᴏᴡ ᴀɴʏ ᴇʀʀᴏʀ ʀᴇᴘᴏʀᴛ ᴀᴛ - @AbishnoiMF :"
+        "sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇs ɪғ sʜᴏᴡ ᴀɴʏ ᴇʀʀᴏʀ ʀᴇᴘᴏʀᴛ ᴀᴛ - @Aizenff :"
     )
     app.start()
     telethn.start(bot_token=TOKEN)
