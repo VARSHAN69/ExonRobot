@@ -41,7 +41,7 @@ async def wall(_, msg):
         await abishnoi.send_chat_action(msg.chat.id, enums.ChatAction.UPLOAD_PHOTO)
         await msg.reply_photo(
             preview,
-            caption=f"🔎 ᴛɪᴛʟᴇ - {title}\nᴊᴏɪɴ [@ᴀʙɪsʜɴᴏɪᴍғ](t.me/{SUPPORT_CHAT})",
+            caption=f"🔎 ᴛɪᴛʟᴇ - {title}\nᴊᴏɪɴ [@aizen](t.me/{SUPPORT_CHAT})",
         )
     # await msg.reply_document(pic, caption=f"🔎 ᴛɪᴛʟᴇ - {title} \n🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {msg.from_user.mention}")
     except Exception as error:
