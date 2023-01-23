@@ -112,7 +112,7 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                             text="sᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Abishnoi_bots"
+                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/aizenbotj"
                         ),
                     ],
                     [
@@ -125,11 +125,11 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     elif query.data == "EXON_CREDIT":  # ᴄʀᴇᴅɪᴛ  i ʜᴏᴘᴇ ᴇᴅɪᴛ ɴᴀɪ ʜᴏɢᴀ
         await query.message.edit_caption(
             f"━━━━━━━ *ᴄʀᴇᴅɪᴛ* ━━━━━━━"
-            "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ ᴇxᴏɴ ʀᴏʙᴏᴛ* 🛡️"
+            "\n🛡️ *ᴄʀᴇᴅɪᴛ ꜰᴏʀ  ʀᴏʙᴏᴛ* 🛡️"
             "\n\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴀɴᴅ"
             f"\nꜱᴘᴏɴꜱᴏʀ ᴏꜰ [{BOT_NAME}](t.me/{BOT_USERNAME})"
             "\n\nʜᴇ ꜱᴘᴇɴᴛ ᴀ ʟᴏᴛ ᴏꜰ ᴛɪᴍᴇ ꜰᴏʀ"
-            f"\nᴍᴀᴋɪɴɢ [{BOT_NAME}](t.me/Abishnoi1M)"
+            f"\nᴍᴀᴋɪɴɢ [{BOT_NAME}](t.me/Aizenff)"
             "\nꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -146,7 +146,7 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                     [
                         InlineKeyboardButton(
                             text="ᴀʙɪsʜɴᴏɪ",
-                            url="https://t.me/Abishnoi1M",  # ᴄʀᴇᴅɪᴛ ( ɪ ʜᴏᴘᴇ ᴄʜᴀɴɢᴇ ɴᴀɪ ᴋʀᴏɢᴇ )
+                            url="https://t.me/Aizenff",  # ᴄʀᴇᴅɪᴛ ( ɪ ʜᴏᴘᴇ ᴄʜᴀɴɢᴇ ɴᴀɪ ᴋʀᴏɢᴇ )
                         ),
                         InlineKeyboardButton(
                             text="ᴄʜᴀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
@@ -167,11 +167,11 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
 [ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://github.com/python-telegram-bot/python-telegram-bot), 
 ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [{BOT_NAME}](https://github.com/Abishnoi69/ExonRobot)
+*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [{BOT_NAME}](https://github.com)
 
 
-ᴇxᴏɴ ʀᴏʙᴏᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/Abishnoi69/ExonRobot/blob/main/LICENSE).
-© 2022 - 2023 [@ᴀʙɪsʜɴᴏɪᴍғ](https://t.me/AbishnoiMF), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+ ʀᴏʙᴏᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com).
+© 2022 - 2023 [@ᴀɪᴢᴇɴ](https://t.me/Aizenff), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -188,7 +188,7 @@ async def EXON_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                     [
                         InlineKeyboardButton(
                             text="ꜱᴏᴜʀᴄᴇ",
-                            url="https://github.com/Abishnoi69/ExonRobot",
+                            url="https://github.com",
                         ),
                     ],
                 ]
