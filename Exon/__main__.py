@@ -255,7 +255,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         InlineKeyboardButton(
                             text="ꜱᴜᴘᴘᴏʀᴛ",
-                            url=f"https://t.me/{SUPPORT_CHAT}",
+                            url=f"https://t.me/aizenbotj",
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇꜱ",
