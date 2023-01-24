@@ -287,7 +287,7 @@ def whitelist_plus(func):
             return await func(update, context, *args, **kwargs)
         else:
             await update.effective_message.reply_text(
-                f"ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇss ᴛᴏ ᴜsᴇ ᴛʜɪs.\nVisit @{SUPPORT_CHAT}",
+                f"ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇss ᴛᴏ ᴜsᴇ ᴛʜɪs.\nVisit @aizenbotj",
             )
 
     return is_whitelist_plus_func
